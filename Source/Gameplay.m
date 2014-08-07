@@ -110,14 +110,36 @@ int remaining_Lives;
                   } key:poopinfly];
                     i.pooped = TRUE;
                 }
-                
-                [i.physicsBody applyForce:ccp(0,4000)];
-                i.rotation = 180;
-                            }
+                CCLOG(@"y speed :%f", i.physicsBody.velocity.y);
+                if (i.physicsBody.velocity.y < 0 ){
+                    i.position = ccp(i.position.x ,self.boundingBox.size.height/2);
+                    i.rotation = 180 - i.rotation;
+                    [i.physicsBody applyForce:ccp(0,6000)];
+                }
+            }
             if  (i.position.y > self.boundingBox.size.height){
                 [[_physicsNode space] addPostStepBlock:^{
                     [self oneObjectRemoved:i];
-                } key:i];            }
+                } key:i];
+            }
+            if ( i.position.x < 10) {
+                i.position = ccp(10 ,i.position.y);
+                i.rotation = -i.rotation;
+                [i.physicsBody applyForce:ccp(-i.physicsBody.velocity.x*200 ,0)];
+            }
+            if (i.position.x > self.boundingBox.size.width - 10 ) {
+                i.position = ccp(self.boundingBox.size.width - 10 ,i.position.y);
+                i.rotation = -i.rotation;
+                [i.physicsBody applyForce:ccp(-i.physicsBody.velocity.x*200 ,0)];
+            }
+        }else{
+            CCNode *k = object;
+            if (k.position.y < 0){
+                [[_physicsNode space] addPostStepBlock:^{
+                    [self oneObjectRemoved:k];
+                } key:k];
+            }
+            
         }
     }
 }
@@ -125,13 +147,20 @@ int remaining_Lives;
 
 
 - (void)oneBirdAppears {
-    int r = arc4random() % 100;
-    CCLOG(@"%i", r);
+    double r1 = arc4random() % 100;
+    double r2 = arc4random() % 100;
+    double r3 = arc4random() % 100;
+    double x;
+    double birdAngel;
+    if (r3 > 50) { x = 1;}else{ x = -1;}
+    birdAngel = - (atan(x * (1500 + 15 * r2)/3000))*180/M_PI;
+    CCLOG(@"angel %f", birdAngel);
     CCNode* bird = [CCBReader load:@"Bird"];
     bird.physicsBody.sensor = TRUE;
-    bird.position = ccp( (20 + r*(self.boundingBox.size.width - 20)/100) ,self.boundingBox.size.height);
+    bird.position = ccp( (20 + r1*(self.boundingBox.size.width - 20)/100) ,self.boundingBox.size.height - 10);
+    bird.rotation = birdAngel;
     [_physicsNode addChild:bird];
-    CGPoint flydirection = ccp( 0, -3000);
+    CGPoint flydirection = ccp( x * (1500 + 15 * r2), -3000);
     [bird.physicsBody applyForce:flydirection];
     
 }
@@ -171,7 +200,6 @@ int remaining_Lives;
     if (remaining_Lives == 0) {
         CCScene *recapScene = [CCBReader loadAsScene:@"Recap"];
         [[CCDirector sharedDirector] replaceScene:recapScene];
-;
     }
     return TRUE;
 }

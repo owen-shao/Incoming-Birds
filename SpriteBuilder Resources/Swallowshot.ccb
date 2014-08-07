@@ -105,7 +105,7 @@
 				<key>type</key>
 				<string>Float</string>
 				<key>value</key>
-				<real>10000</real>
+				<real>500</real>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -121,7 +121,7 @@
 				<key>type</key>
 				<string>Integer</string>
 				<key>value</key>
-				<integer>250</integer>
+				<integer>50</integer>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -142,7 +142,7 @@
 				<key>value</key>
 				<array>
 					<real>4</real>
-					<real>2</real>
+					<real>1</real>
 				</array>
 			</dict>
 			<dict>
@@ -238,8 +238,8 @@
 				<string>Blendmode</string>
 				<key>value</key>
 				<array>
-					<integer>1</integer>
-					<integer>1</integer>
+					<integer>775</integer>
+					<integer>771</integer>
 				</array>
 			</dict>
 			<dict>
@@ -258,7 +258,7 @@
 				<key>value</key>
 				<array>
 					<real>0.0</real>
-					<real>-300</real>
+					<real>-200</real>
 				</array>
 			</dict>
 			<dict>
