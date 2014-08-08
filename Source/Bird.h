@@ -11,5 +11,10 @@
 @interface Bird : CCSprite
 
 @property (nonatomic, assign) BOOL pooped;
+@property (nonatomic, assign) int health;
+@property (nonatomic, assign) NSString* afterDeathCCBName;
+@property (nonatomic, assign) int swallowLifeCounter;
+@property (nonatomic, assign) int pigeonLifeCounter;
+@property (nonatomic, assign) int ravenLifeCounter;
 
 @end

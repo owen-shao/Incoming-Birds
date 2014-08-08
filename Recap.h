@@ -10,4 +10,9 @@
 
 @interface Recap : CCNode
 
+@property (nonatomic, assign) int swallowKilled;
+@property (nonatomic, assign) int pigeonKilled;
+@property (nonatomic, assign) int ravenKilled;
+
+
 @end

@@ -8,6 +8,7 @@
 
 #import <math.h>
 #import "Gameplay.h"
+#import "Recap.h"
 #import "Bird.h"
 #import "Projectile.h"
 #import "CCPhysics+ObjectiveChipmunk.h"
@@ -15,6 +16,7 @@
 #define M_PI        3.14159265358979323846264338327950288
 static const int TOTAL_LIVES = 10;
 int remaining_Lives;
+int swallowKilledNumber , pigeonKilledNumber, ravenKilledNumber;
 
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
@@ -32,16 +34,20 @@ int remaining_Lives;
     _car.physicsBody.sensor = TRUE;
     remaining_Lives = TOTAL_LIVES;
     _health.string = [NSString stringWithFormat:@"%d", remaining_Lives];
+    swallowKilledNumber = pigeonKilledNumber = ravenKilledNumber = 0 ;
+    
+    [self schedule:@selector(oneSwallowAppears) interval:2.0f repeat:10 delay:0];
+    [self schedule:@selector(onePigeonAppears) interval:2.0f repeat:2 delay:10];
+    [self schedule:@selector(oneRavenAppears) interval:2.0f repeat:1 delay:14];
     
     self.userInteractionEnabled = TRUE;
-    [self schedule:@selector(oneBirdAppears) interval:2.0f];
+    
     
 }
 
 // called on every touch in this scene
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     CGPoint touchLocation = [touch locationInNode:_ccNode];
-    CCLOG(@"%@", NSStringFromCGPoint(touchLocation));
     [self launchProjectile: touchLocation];
     
 }
@@ -123,12 +129,12 @@ int remaining_Lives;
                 } key:i];
             }
             if ( i.position.x < 10) {
-                i.position = ccp(10 ,i.position.y);
+                i.position = ccp(12 ,i.position.y);
                 i.rotation = -i.rotation;
                 [i.physicsBody applyForce:ccp(-i.physicsBody.velocity.x*200 ,0)];
             }
             if (i.position.x > self.boundingBox.size.width - 10 ) {
-                i.position = ccp(self.boundingBox.size.width - 10 ,i.position.y);
+                i.position = ccp(self.boundingBox.size.width - 12 ,i.position.y);
                 i.rotation = -i.rotation;
                 [i.physicsBody applyForce:ccp(-i.physicsBody.velocity.x*200 ,0)];
             }
@@ -144,9 +150,7 @@ int remaining_Lives;
     }
 }
 
-
-
-- (void)oneBirdAppears {
+- (void)oneSwallowAppears {
     double r1 = arc4random() % 100;
     double r2 = arc4random() % 100;
     double r3 = arc4random() % 100;
@@ -155,7 +159,7 @@ int remaining_Lives;
     if (r3 > 50) { x = 1;}else{ x = -1;}
     birdAngel = - (atan(x * (1500 + 15 * r2)/3000))*180/M_PI;
     CCLOG(@"angel %f", birdAngel);
-    CCNode* bird = [CCBReader load:@"Bird"];
+    CCNode* bird = [CCBReader load:@"Swallow"];
     bird.physicsBody.sensor = TRUE;
     bird.position = ccp( (20 + r1*(self.boundingBox.size.width - 20)/100) ,self.boundingBox.size.height - 10);
     bird.rotation = birdAngel;
@@ -165,26 +169,72 @@ int remaining_Lives;
     
 }
 
-- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair bird:(CCNode *)nodeA projectile:(CCNode *)nodeB {
-    [[_physicsNode space] addPostStepBlock:^{
-    [self oneObjectRemoved:nodeA];
-    } key:nodeA];
-    [[_physicsNode space] addPostStepBlock:^{
-    [self oneObjectRemoved:nodeB];
-    } key:nodeB];
+- (void)onePigeonAppears {
+    double r1 = arc4random() % 100;
+    double r2 = arc4random() % 100;
+    double r3 = arc4random() % 100;
+    double x;
+    double birdAngel;
+    if (r3 > 50) { x = 1;}else{ x = -1;}
+    birdAngel = - (atan(x * (1500 + 15 * r2)/3000))*180/M_PI;
+    CCLOG(@"angel %f", birdAngel);
+    CCNode* bird = [CCBReader load:@"Pigeon"];
+    bird.physicsBody.sensor = TRUE;
+    bird.position = ccp( (20 + r1*(self.boundingBox.size.width - 20)/100) ,self.boundingBox.size.height - 10);
+    bird.rotation = birdAngel;
+    [_physicsNode addChild:bird];
+    CGPoint flydirection = ccp( x * (1500 + 15 * r2), -3000);
+    [bird.physicsBody applyForce:flydirection];
     
-    CCParticleSystem *blood = (CCParticleSystem *)[CCBReader load:@"Swallowshot"];
+}
+
+- (void)oneRavenAppears {
+    double r1 = arc4random() % 100;
+    double r2 = arc4random() % 100;
+    double r3 = arc4random() % 100;
+    double x;
+    double birdAngel;
+    if (r3 > 50) { x = 1;}else{ x = -1;}
+    birdAngel = - (atan(x * (1500 + 15 * r2)/3000))*180/M_PI;
+    CCLOG(@"angel %f", birdAngel);
+    CCNode* bird = [CCBReader load:@"Raven"];
+    bird.physicsBody.sensor = TRUE;
+    bird.position = ccp( (20 + r1*(self.boundingBox.size.width - 20)/100) ,self.boundingBox.size.height - 10);
+    bird.rotation = birdAngel;
+    [_physicsNode addChild:bird];
+    CGPoint flydirection = ccp( x * (1500 + 15 * r2), -3000);
+    [bird.physicsBody applyForce:flydirection];
+    
+}
+
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair bird:(Bird *)nodeA projectile:(CCNode *)nodeB {
+    nodeA.health--;
+    CCParticleSystem *blood = (CCParticleSystem *)[CCBReader load:@"Birdshot"];
     blood.autoRemoveOnFinish = TRUE;
     blood.position = nodeA.position;
     [_physicsNode addChild:blood];
     
-    CCNode* deadswallow = [CCBReader load:@"Deadswallow"];
-    deadswallow.physicsBody.sensor = TRUE;
-    deadswallow.position = nodeA.position;
+    if (nodeA.health <= 0) {
+        swallowKilledNumber += nodeA.swallowLifeCounter;
+        pigeonKilledNumber += nodeA.pigeonLifeCounter;
+        ravenKilledNumber += nodeA.ravenLifeCounter;
+        
+        [[_physicsNode space] addPostStepBlock:^{
+        [self oneObjectRemoved:nodeA];
+        } key:nodeA];
+    
+        CCNode* deadbird = [CCBReader load:nodeA.afterDeathCCBName];
+        deadbird.physicsBody.sensor = TRUE;
+        deadbird.position = nodeA.position;
+        [[_physicsNode space] addPostStepBlock:^{
+            [_physicsNode addChild:deadbird];
+        } key:deadbird];
+    }
     
     [[_physicsNode space] addPostStepBlock:^{
-        [_physicsNode addChild:deadswallow];
-    } key:deadswallow];
+    [self oneObjectRemoved:nodeB];
+    } key:nodeB];
+    
     return TRUE;
 }
 
@@ -199,6 +249,11 @@ int remaining_Lives;
     _health.string = [NSString stringWithFormat:@"%d", remaining_Lives];
     if (remaining_Lives == 0) {
         CCScene *recapScene = [CCBReader loadAsScene:@"Recap"];
+        Recap *scene = (Recap *)recapScene.children.firstObject;
+        scene.swallowKilled = swallowKilledNumber;
+        scene.pigeonKilled = pigeonKilledNumber;
+        scene.ravenKilled = ravenKilledNumber;
+        
         [[CCDirector sharedDirector] replaceScene:recapScene];
     }
     return TRUE;

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5A851B2E1963814800FFF762 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A851B2D1963814800FFF762 /* Gameplay.m */; };
+		5A8B2BDB19943FBD00B3EC69 /* Swallow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2BDA19943FBD00B3EC69 /* Swallow.m */; };
+		5A8B2BE319947E2100B3EC69 /* Pigeon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2BE219947E2100B3EC69 /* Pigeon.m */; };
+		5A8B2BE619947E3700B3EC69 /* Raven.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2BE519947E3700B3EC69 /* Raven.m */; };
 		5ABF75C6195E06130040B0DD /* Projectile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF75C5195E06130040B0DD /* Projectile.m */; };
 		5ABF75CA195E06300040B0DD /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF75C9195E06300040B0DD /* Bird.m */; };
 		5AC5C486199195E5005BBA34 /* Poopinfly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC5C485199195E5005BBA34 /* Poopinfly.m */; };
@@ -62,6 +65,12 @@
 /* Begin PBXFileReference section */
 		5A851B2C1963814800FFF762 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
 		5A851B2D1963814800FFF762 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
+		5A8B2BD919943FBD00B3EC69 /* Swallow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Swallow.h; path = Source/Swallow.h; sourceTree = "<group>"; };
+		5A8B2BDA19943FBD00B3EC69 /* Swallow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Swallow.m; path = Source/Swallow.m; sourceTree = "<group>"; };
+		5A8B2BE119947E2100B3EC69 /* Pigeon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pigeon.h; path = Source/Pigeon.h; sourceTree = "<group>"; };
+		5A8B2BE219947E2100B3EC69 /* Pigeon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pigeon.m; path = Source/Pigeon.m; sourceTree = "<group>"; };
+		5A8B2BE419947E3700B3EC69 /* Raven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raven.h; sourceTree = "<group>"; };
+		5A8B2BE519947E3700B3EC69 /* Raven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Raven.m; sourceTree = "<group>"; };
 		5ABF75C4195E06130040B0DD /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Projectile.h; path = Source/Projectile.h; sourceTree = "<group>"; };
 		5ABF75C5195E06130040B0DD /* Projectile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Projectile.m; path = Source/Projectile.m; sourceTree = "<group>"; };
 		5ABF75C8195E06300040B0DD /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bird.h; path = Source/Bird.h; sourceTree = "<group>"; };
@@ -149,6 +158,12 @@
 				5ABF75C5195E06130040B0DD /* Projectile.m */,
 				5ABF75C8195E06300040B0DD /* Bird.h */,
 				5ABF75C9195E06300040B0DD /* Bird.m */,
+				5A8B2BD919943FBD00B3EC69 /* Swallow.h */,
+				5A8B2BDA19943FBD00B3EC69 /* Swallow.m */,
+				5A8B2BE119947E2100B3EC69 /* Pigeon.h */,
+				5A8B2BE219947E2100B3EC69 /* Pigeon.m */,
+				5A8B2BE419947E3700B3EC69 /* Raven.h */,
+				5A8B2BE519947E3700B3EC69 /* Raven.m */,
 				5AC5C484199195E5005BBA34 /* Poopinfly.h */,
 				5AC5C485199195E5005BBA34 /* Poopinfly.m */,
 			);
@@ -350,7 +365,10 @@
 				5AC5C486199195E5005BBA34 /* Poopinfly.m in Sources */,
 				5AC5C4891991ACC5005BBA34 /* Recap.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				5A8B2BE319947E2100B3EC69 /* Pigeon.m in Sources */,
 				5A851B2E1963814800FFF762 /* Gameplay.m in Sources */,
+				5A8B2BDB19943FBD00B3EC69 /* Swallow.m in Sources */,
+				5A8B2BE619947E3700B3EC69 /* Raven.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
