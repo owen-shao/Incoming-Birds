@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>ReloadAnimation/reload1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1331}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 951}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1331, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1711, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload15.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload16.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 761}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload17.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 1331}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload18.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1331, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload19.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 1331}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 1521}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload20.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 951}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload21.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{951, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload22.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1521}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload23.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload24.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{761, 571}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload25.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1711, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload26.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload27.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload28.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{761, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload29.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 761}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{951, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload30.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 571}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload31.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 951}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload32.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1141, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload33.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 1141}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload34.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1521, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload35.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{951, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload36.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 1331}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload37.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1521, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload38.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload39.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 761}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload40.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 1521}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload41.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1711, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload42.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload43.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 571}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload44.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1141, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload45.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload46.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 951}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload47.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 1711}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload48.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1521, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload49.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 1711}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 1711}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload50.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 1141}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload51.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1331, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload52.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1711}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload53.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload54.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 1141}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload55.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 571}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload56.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{761, 381}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload57.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{381, 571}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload58.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1141, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload59.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 1521}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{191, 191}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload60.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1141}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload61.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{951, 571}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{761, 1}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1141, 571}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>ReloadAnimation/reload9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 761}, {188, 188}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 7}, {188, 188}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{2048, 2048}</string>
+		<key>textureFileName</key>
+		<string>ReloadAnimation.png</string>
+	</dict>
+</dict>
+</plist>

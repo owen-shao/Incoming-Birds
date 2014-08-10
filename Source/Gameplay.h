@@ -10,4 +10,8 @@
 
 @interface Gameplay : CCNode <CCPhysicsCollisionDelegate>
 
+@property (nonatomic, assign) NSString* currentWeapon;
+@property (nonatomic, assign) int weaponIndex;
+
+
 @end

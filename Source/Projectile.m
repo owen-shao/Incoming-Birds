@@ -12,6 +12,7 @@
 
 - (void)didLoadFromCCB {
     self.physicsBody.collisionType = @"projectile";
+    self.physicsBody.sensor = TRUE;
 }
 
 @end

@@ -4,49 +4,179 @@
 <dict>
 	<key>frames</key>
 	<dict>
-		<key>PNGAssets/background.png</key>
+		<key>PNGAssets/12.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1}, {768, 1024}}</string>
+			<string>{{962, 551}, {28, 28}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
+			<string>{{2, 2}, {28, 28}}</string>
+			<key>sourceSize</key>
+			<string>{32, 32}</string>
+		</dict>
+		<key>PNGAssets/background.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1203}, {768, 1024}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
 			<string>{{0, 0}, {768, 1024}}</string>
 			<key>sourceSize</key>
 			<string>{768, 1024}</string>
 		</dict>
+		<key>PNGAssets/background2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {800, 1200}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {800, 1200}}</string>
+			<key>sourceSize</key>
+			<string>{800, 1200}</string>
+		</dict>
 		<key>PNGAssets/bullet.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1641}, {29, 50}}</string>
+			<string>{{1379, 161}, {29, 50}}</string>
 			<key>offset</key>
 			<string>{0, 3}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{35, 22}, {29, 50}}</string>
 			<key>sourceSize</key>
 			<string>{100, 100}</string>
 		</dict>
+		<key>PNGAssets/buttons-01@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{578, 1973}, {244, 63}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {244, 63}}</string>
+			<key>sourceSize</key>
+			<string>{244, 63}</string>
+		</dict>
+		<key>PNGAssets/buttons-02@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1070, 349}, {244, 58}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {244, 58}}</string>
+			<key>sourceSize</key>
+			<string>{244, 58}</string>
+		</dict>
+		<key>PNGAssets/buttons-03@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1774, 147}, {244, 63}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {244, 63}}</string>
+			<key>sourceSize</key>
+			<string>{244, 63}</string>
+		</dict>
+		<key>PNGAssets/buttons-04@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1316, 289}, {244, 58}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {244, 58}}</string>
+			<key>sourceSize</key>
+			<string>{244, 58}</string>
+		</dict>
+		<key>PNGAssets/buttons-12@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{824, 1973}, {244, 63}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {244, 63}}</string>
+			<key>sourceSize</key>
+			<string>{244, 63}</string>
+		</dict>
+		<key>PNGAssets/buttons-13@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1070, 289}, {244, 58}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {244, 58}}</string>
+			<key>sourceSize</key>
+			<string>{244, 58}</string>
+		</dict>
+		<key>PNGAssets/cabin.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{992, 551}, {22, 114}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{46, 1}, {22, 114}}</string>
+			<key>sourceSize</key>
+			<string>{115, 115}</string>
+		</dict>
 		<key>PNGAssets/car.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1027}, {307, 83}}</string>
+			<string>{{1070, 110}, {307, 83}}</string>
 			<key>offset</key>
 			<string>{0, -45}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{6, 104}, {307, 83}}</string>
 			<key>sourceSize</key>
 			<string>{320, 200}</string>
 		</dict>
+		<key>PNGAssets/chooseweapon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1027, 1}, {351, 38}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{9, 12}, {351, 38}}</string>
+			<key>sourceSize</key>
+			<string>{370, 64}</string>
+		</dict>
 		<key>PNGAssets/deadpigeon.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1564}, {29, 75}}</string>
+			<string>{{996, 363}, {29, 75}}</string>
 			<key>offset</key>
 			<string>{-2, -2}</string>
 			<key>rotated</key>
@@ -59,11 +189,11 @@
 		<key>PNGAssets/deadraven.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1487}, {75, 69}}</string>
+			<string>{{444, 1973}, {75, 69}}</string>
 			<key>offset</key>
 			<string>{-4, 13}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{33, 27}, {75, 69}}</string>
 			<key>sourceSize</key>
@@ -72,46 +202,176 @@
 		<key>PNGAssets/deadswallow.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{166, 1112}, {49, 52}}</string>
+			<string>{{1379, 110}, {49, 52}}</string>
 			<key>offset</key>
 			<string>{5, 3}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{56, 46}, {49, 52}}</string>
 			<key>sourceSize</key>
 			<string>{150, 150}</string>
 		</dict>
+		<key>PNGAssets/gameover.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{985, 120}, {241, 38}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10, 12}, {241, 38}}</string>
+			<key>sourceSize</key>
+			<string>{260, 62}</string>
+		</dict>
+		<key>PNGAssets/gametitle.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1437, 93}, {335, 113}}</string>
+			<key>offset</key>
+			<string>{0, -2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{17, 25}, {335, 113}}</string>
+			<key>sourceSize</key>
+			<string>{370, 158}</string>
+		</dict>
 		<key>PNGAssets/heart.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1336}, {149, 142}}</string>
+			<string>{{803, 576}, {149, 142}}</string>
 			<key>offset</key>
 			<string>{0, -1}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{15, 5}, {149, 142}}</string>
 			<key>sourceSize</key>
 			<string>{180, 151}</string>
 		</dict>
+		<key>PNGAssets/m4Icon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1437, 1}, {339, 90}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{30, 154}, {339, 90}}</string>
+			<key>sourceSize</key>
+			<string>{400, 400}</string>
+		</dict>
+		<key>PNGAssets/machinegun.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1379, 192}, {47, 115}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{35, 0}, {47, 115}}</string>
+			<key>sourceSize</key>
+			<string>{115, 115}</string>
+		</dict>
+		<key>PNGAssets/machinegunIcon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1070, 1}, {365, 107}}</string>
+			<key>offset</key>
+			<string>{-2, -4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{15, 151}, {365, 107}}</string>
+			<key>sourceSize</key>
+			<string>{400, 400}</string>
+		</dict>
+		<key>PNGAssets/mag.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1070, 409}, {235, 234}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{9, 8}, {235, 234}}</string>
+			<key>sourceSize</key>
+			<string>{250, 250}</string>
+		</dict>
+		<key>PNGAssets/micromachine.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{962, 363}, {32, 90}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{30, 0}, {32, 90}}</string>
+			<key>sourceSize</key>
+			<string>{90, 90}</string>
+		</dict>
+		<key>PNGAssets/mp5Icon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1778, 1}, {248, 144}}</string>
+			<key>offset</key>
+			<string>{-11, -9}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{65, 137}, {248, 144}}</string>
+			<key>sourceSize</key>
+			<string>{400, 400}</string>
+		</dict>
 		<key>PNGAssets/pigeon.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{86, 1173}, {98, 93}}</string>
+			<string>{{962, 456}, {98, 93}}</string>
 			<key>offset</key>
 			<string>{0, -6}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{26, 35}, {98, 93}}</string>
 			<key>sourceSize</key>
 			<string>{150, 150}</string>
 		</dict>
+		<key>PNGAssets/pistol.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{963, 217}, {17, 75}}</string>
+			<key>offset</key>
+			<string>{-2, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26, 0}, {17, 75}}</string>
+			<key>sourceSize</key>
+			<string>{75, 75}</string>
+		</dict>
+		<key>PNGAssets/pistolIcon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1428, 208}, {224, 148}}</string>
+			<key>offset</key>
+			<string>{-4, -14}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{84, 140}, {224, 148}}</string>
+			<key>sourceSize</key>
+			<string>{400, 400}</string>
+		</dict>
 		<key>PNGAssets/poopinfly.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1693}, {10, 19}}</string>
+			<string>{{1009, 1}, {10, 19}}</string>
 			<key>offset</key>
 			<string>{-3, -6}</string>
 			<key>rotated</key>
@@ -124,11 +384,11 @@
 		<key>PNGAssets/pooponcar.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{86, 1273}, {55, 69}}</string>
+			<string>{{521, 1973}, {55, 69}}</string>
 			<key>offset</key>
 			<string>{0, -8}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{23, 24}, {55, 69}}</string>
 			<key>sourceSize</key>
@@ -137,7 +397,7 @@
 		<key>PNGAssets/raven.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{86, 1027}, {144, 78}}</string>
+			<string>{{1654, 208}, {144, 78}}</string>
 			<key>offset</key>
 			<string>{-1, 4}</string>
 			<key>rotated</key>
@@ -147,18 +407,135 @@
 			<key>sourceSize</key>
 			<string>{150, 150}</string>
 		</dict>
+		<key>PNGAssets/reloadalert1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{803, 1}, {204, 117}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{23, 16}, {204, 117}}</string>
+			<key>sourceSize</key>
+			<string>{250, 150}</string>
+		</dict>
+		<key>PNGAssets/reloadalert2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{803, 120}, {180, 95}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{35, 27}, {180, 95}}</string>
+			<key>sourceSize</key>
+			<string>{250, 150}</string>
+		</dict>
+		<key>PNGAssets/reloadalert3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{803, 217}, {158, 75}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{46, 37}, {158, 75}}</string>
+			<key>sourceSize</key>
+			<string>{250, 150}</string>
+		</dict>
+		<key>PNGAssets/sandbags.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{803, 294}, {280, 157}}</string>
+			<key>offset</key>
+			<string>{13, -42}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{73, 164}, {280, 157}}</string>
+			<key>sourceSize</key>
+			<string>{400, 400}</string>
+		</dict>
+		<key>PNGAssets/shotgun.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1027, 354}, {37, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{32, 0}, {37, 100}}</string>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>PNGAssets/shotgunIcon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1070, 195}, {302, 92}}</string>
+			<key>offset</key>
+			<string>{-2, -44}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{47, 198}, {302, 92}}</string>
+			<key>sourceSize</key>
+			<string>{400, 400}</string>
+		</dict>
+		<key>PNGAssets/sniperrifle.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2020, 147}, {23, 115}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{47, 0}, {23, 115}}</string>
+			<key>sourceSize</key>
+			<string>{115, 115}</string>
+		</dict>
+		<key>PNGAssets/sniperrifleIcon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1973}, {356, 74}}</string>
+			<key>offset</key>
+			<string>{4, 51}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26, 112}, {356, 74}}</string>
+			<key>sourceSize</key>
+			<string>{400, 400}</string>
+		</dict>
 		<key>PNGAssets/swallow.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{166, 1027}, {83, 70}}</string>
+			<string>{{359, 1973}, {83, 70}}</string>
 			<key>offset</key>
 			<string>{0, 9}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{33, 31}, {83, 70}}</string>
 			<key>sourceSize</key>
 			<string>{150, 150}</string>
+		</dict>
+		<key>PNGAssets/total.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1027, 551}, {140, 33}}</string>
+			<key>offset</key>
+			<string>{-1, 2}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{12, 11}, {140, 33}}</string>
+			<key>sourceSize</key>
+			<string>{166, 60}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>

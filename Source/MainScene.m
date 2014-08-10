@@ -11,8 +11,8 @@
 @implementation MainScene
 
 - (void)start {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+    CCScene *chooseWeaponScene = [CCBReader loadAsScene:@"ChooseWeapon"];
+    [[CCDirector sharedDirector] replaceScene:chooseWeaponScene];
 }
 
 @end

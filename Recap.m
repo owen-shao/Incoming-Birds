@@ -8,11 +8,26 @@
 
 #import "Recap.h"
 
-@implementation Recap
+@implementation Recap {
+    CCLabelTTF *_swallowNumber;
+    CCLabelTTF *_pigeonNumber;
+    CCLabelTTF *_ravenNumber;
+    CCLabelTTF *_totalNumber;
+    
+}
+
+- (void)onEnter{
+    [super onEnter];
+    _swallowNumber.string = [NSString stringWithFormat:@"%d", self.swallowKilled];
+    _pigeonNumber.string = [NSString stringWithFormat:@"%d", self.pigeonKilled];
+    _ravenNumber.string = [NSString stringWithFormat:@"%d", self.ravenKilled];
+    _totalNumber.string = [NSString stringWithFormat:@"%d", (self.swallowKilled + self.pigeonKilled + self.ravenKilled )];
+    
+}
 
 - (void)restart {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+    CCScene *chooseWeaponScene = [CCBReader loadAsScene:@"ChooseWeapon"];
+    [[CCDirector sharedDirector] replaceScene:chooseWeaponScene];
 }
 
 @end
